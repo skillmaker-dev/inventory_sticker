@@ -1,0 +1,77 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #85ffbd;
+  background-image: linear-gradient(45deg, #85ffbd 0%, #fffb7d 100%);
+}
+.h3-header {
+  text-align: center;
+}
+.form-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+.form-logo {
+  width: 150px;
+}
+.main-panel {
+  display: flex;
+  flex-direction: row;
+
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px,
+    rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+  background-color: white;
+}
+
+.page1-panel {
+  height: 70%;
+  width: 80%;
+  margin-bottom: 3rem;
+}
+
+.page2-panel {
+  height: 70%;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.inv-select {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  width: 35%;
+  padding: 3rem;
+}
+
+.inv-image {
+  width: 65%;
+  background-color: rgb(235, 233, 233);
+  object-fit: cover;
+}
+
+.inv-image img {
+  min-width: 100%;
+  max-width: 100%;
+  min-height: 100%;
+  max-height: 100%;
+}
+.form-submit {
+  margin-top: 2rem;
+}
+
+.create_form {
+  width: 60%;
+}
+.panel_header {
+  margin-bottom: 3rem;
+}
